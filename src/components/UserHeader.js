@@ -17,7 +17,6 @@ class UserHeader extends React.Component {
         return <div className='header'>{user.name}</div>;
     }
 }
-
 // ownProps is a reference to the props
 // that are about to be send to the UserHeader Component
 const mapStateToProps = (state, ownProps) => {
