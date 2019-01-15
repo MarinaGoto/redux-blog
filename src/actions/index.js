@@ -6,7 +6,6 @@ export const fetchPosts = () => async dispatch => {
 
     dispatch({ type: 'FETCH_POSTS', payload: response.data })
 };
-
 // solution for issue with post request
 // here we use memoize (problem - we can only fetch one user inside our application)
 export const fetchUser = id => dispatch => _fetchUser(id, dispatch);
